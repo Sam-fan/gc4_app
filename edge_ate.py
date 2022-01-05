@@ -1981,7 +1981,7 @@ if __name__ == '__main__':
     os.system("rm -rf /nsc_tests/gc4_fcc_app/app.log")
     shutdown_amp()
     shutdown_CX20921()
-    resq = Queue.Queue()
+    resq = queue.Queue()
     app = QtWidgets.QApplication(sys.argv)
     myWin = mbox()
     myWin.show()
